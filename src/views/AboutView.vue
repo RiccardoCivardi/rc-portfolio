@@ -1,4 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useSeoMeta } from '@unhead/vue'
+
+useSeoMeta({
+  title: 'Chi sono',
+  description: 'Sviluppatore senior specializzato in Vue.js.',
+  ogTitle: 'Chi sono | Riccardo Civardi',
+  ogDescription: 'Sviluppatore senior specializzato in Vue.js.',
+})
+</script>
 
 <template>
   <div>

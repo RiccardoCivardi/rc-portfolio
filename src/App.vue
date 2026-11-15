@@ -1,4 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useHead } from '@unhead/vue'
+
+useHead({
+  htmlAttrs: { lang: 'it' },
+  titleTemplate: (title) =>
+    title ? `${title} | Riccardo Civardi` : 'Riccardo Civardi — Frontend Developer',
+})
+</script>
 
 <template>
   <h1>Portfolio</h1>
